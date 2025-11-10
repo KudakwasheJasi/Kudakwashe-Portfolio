@@ -5,7 +5,7 @@ let typed = new Typed(".typing", {
     "Programmer Front-End",
     "Backend Developer",
     "Freelancer",
-    "Programmer Front-End",
+    "Full Stack Developer",
   ],
   typeSpeed: 100,
   BackSpeed: 60,
