@@ -58,11 +58,21 @@
   justify-content: space-between;
 }
 
-.style-switcher .colors span {
+.style-switcher .colors span,
+.style-switcher .colors button {
   display: inline-block;
   height: 30px;
   width: 30px;
   border-radius: 50%;
+  padding: 0;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.style-switcher .colors button:hover,
+.style-switcher .colors button:focus-visible {
+  border-color: var(--text-black-900);
+  transform: scale(1.08);
 }
 
 .style-switcher .color-1 {
